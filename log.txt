@@ -1,0 +1,30 @@
+
+
+
+some problems
+
+    some libs encapsulate the features of x86_64, it looks simple but make difficulty to make use of x86_64 features.
+
+    use object-oriented to write os is some of unsuitable.
+
+    the project rules of cargo is not simple enough to use.
+
+
+
+x86 Instruction Set Architecture
+
+    Basic Computing Instruction
+
+        Instruction
+
+        Register and memory access
+
+    Interrupt handler
+
+
+    Memory management
+
+
+    device management
+
+    

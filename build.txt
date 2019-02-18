@@ -1,0 +1,25 @@
+
+
+dependences
+
+    cargo install cargo-xbuild
+
+    cargo install bootimage --version "^0.5.0"
+
+    rustup component add rust-src
+
+    sudo apt install qemu-system
+
+
+
+build
+
+    rustup override set nightly-2019-01-01
+
+    //cargo xbuild --target x86_64-blog_os.json
+
+    bootimage build --target x86_64-blog_os.json
+
+    qemu-system-x86_64 -drive format=raw,file=target/x86_64-blog_os/debug/bootimage-blog_os_diy.bin
+
+    //bootimage run
